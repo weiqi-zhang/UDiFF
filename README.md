@@ -21,7 +21,7 @@
     <img src="figs/mainfig.png" width="780" />
 </p>
 
-We release the code of the paper <a href="">UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion</a> in this repository.
+We will release the code of the paper <a href="">UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion</a> in this repository.
 
 ## Generated Results
 ### Deepfashion3D
@@ -39,8 +39,8 @@ We release the code of the paper <a href="">UDiFF: Generating Conditional Unsign
 If you find our code or paper useful, please consider citing
 
     @inproceedings{udiff,
-    title={UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion},
-    author={Zhou, Junsheng and Zhang, Weiqi and Ma, Baorui and Shi, Kanle and Liu, Yu-Shen and Han, Zhizhong},
-    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    year={2024}
+        title={UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion},
+        author={Zhou, Junsheng and Zhang, Weiqi and Ma, Baorui and Shi, Kanle and Liu, Yu-Shen and Han, Zhizhong},
+        booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+        year={2024}
     }
