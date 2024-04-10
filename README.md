@@ -43,35 +43,12 @@ We will release the code of the paper <a href="">UDiFF: Generating Conditional U
 
 ### Category Conditional Generations
 
-<div class="content has-text-centered">
-          <video id="replay-video"
-                 autoplay
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 loop
-                 width="90%">
-            <source src="./figs/Video_UDiFF.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
+<img src="./figs/Video_UDiFF.gif" class="center">
 
-### Outfit Designs with UDiFF Garment Generations
+Outfit Designs with UDiFF Garment Generations
 
-<div class="content has-text-centered">
-          <video id="replay-video"
-                 autoplay
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 loop
-                 width="90%">
-            <source src="./figs/Video_UDiFF2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
+<img src="./figs/Video_UDiFF2.gif" class="center">
+
 
 ## Generation Results
 
