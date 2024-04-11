@@ -14,13 +14,16 @@
     <a href="https://h312h.github.io/"><strong>Zhizhong Han</strong></a>
 </p>
 <p align="center"><strong>(* Equal Contribution)</strong></p>
-<h3 align="center"><a href="">Paper</a> | <a href="https://weiqi-zhang.github.io/UDiFF/">Project Page</a></h3>
+<h3 align="center"><a href="https://arxiv.org/pdf/2404.06851.pdf">Paper</a> | <a href="https://weiqi-zhang.github.io/UDiFF/">Project Page</a></h3>
 <div align="center"></div>
 </p>
 <p align="center">
     <img src="figs/mainfig.png" width="780" />
 </p>
-We will release the code of the paper <a href="">UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion</a> in this repository.
+
+
+
+We will release the code of the paper <a href="https://arxiv.org/pdf/2404.06851.pdf">UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion</a> in this repository.
 
 ## Abstract
 
