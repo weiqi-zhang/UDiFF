@@ -131,6 +131,8 @@ And you can run the following command:
 python models/network_gen.py
 ```
 
+If you want to generate highquality textures for generated meshes, please refer to [Text2Tex](https://github.com/daveredrum/Text2Tex).
+
 ## Pretrained model
 
 We provide the pretrained models: `learned wavelet`,  `diffusion model` and `detail predictor ` of the unconditional model. Please download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1T8pnkr3cRKQQmPC3MBZDnIZ0f-z5D1pE?usp=sharing).
