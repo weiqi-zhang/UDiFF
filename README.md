@@ -73,8 +73,70 @@ Outfit Designs with UDiFF Garment Generations
 
 <img src="./figs/comp2.png" class="center">
 
+## Installation
+
+We recommend creating an [anaconda](https://www.anaconda.com/) environment using our provided `environment.yml`:
+
+```
+conda env create -f environment.yml
+conda activate udiff
+pip install git+https://github.com/fbcotter/pytorch_wavelets
+```
+
+## Data Preparation
+
+We use point clouds in the [Deepfashion](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html) dataset.
+
+### Sample UDF
+
+Please modify the `root` path in `sample_udf.py` and run it.
+
+### Learn Wavelet
+
+After sampling the UDF from the point cloud, please run `learn_wavelet/train.py` to train the wavelet parameters.
+
+### Convert Wavelet
+
+Finally, you can run ` convert_wavelet.py`  using the checkpoint trained in the previous step. It should be noted that setting the resolution_index to 3 will generate the coarse wavelet coefficients, whereas setting it to 2 will generate the detail wavelet coefficients.
+
+---
+
+At this point you can start training unconditional, if you need to generate text or image conditions, please refer to [openshape](https://github.com/Colin97/OpenShape_code).
+
+## Training
+
+The process of training is primarily governed by the configuration script (config.py or config_highs.py).
+
+It is essential to define `data_files ` direction to the two npy files that have been created.
+
+- Train diffusion model
+
+  ```
+  python trainer/trainer.py --resume_path ./configs/config.py
+  ```
+
+- Train detail predictor
+
+  ```
+  python trainer/trainer.py --resume_path ./configs/config_highs.py
+  ```
+
+## Inference
+
+To execute inference, please modify `models/network_gen.py` by updating the `diffusion_folder` and `high_level_folder`. Additionally, you also need to adjust the `epoch numbers`.
+
+And you can run the following command:
+
+```
+python models/network_gen.py
+```
+
+## Pretrained model
+
+We provide the pretrained models: `learned wavelet`,  `diffusion model` and `detail predictor ` of the unconditional model. Please download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1T8pnkr3cRKQQmPC3MBZDnIZ0f-z5D1pE?usp=sharing).
 
 ## Citation
+
 If you find our code or paper useful, please consider citing
 
     @inproceedings{udiff,
