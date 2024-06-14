@@ -131,7 +131,7 @@ And you can run the following command:
 python models/network_gen.py
 ```
 
-If you want to generate highquality textures for generated meshes, please refer to [Text2Tex](https://github.com/daveredrum/Text2Tex).
+If you want to generate high quality textures for generated meshes, please refer to [Text2Tex](https://github.com/daveredrum/Text2Tex).
 
 ## Pretrained model
 
