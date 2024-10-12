@@ -85,7 +85,7 @@ pip install git+https://github.com/fbcotter/pytorch_wavelets
 
 ## Data Preparation
 
-We use point clouds in the [Deepfashion](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html) dataset.
+We use point clouds in the [Deepfashion]([https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html](https://github.com/GAP-LAB-CUHK-SZ/deepFashion3D)) dataset.
 
 ### Sample UDF
 
