@@ -24,7 +24,7 @@
 
 
 
-We will release the code of the paper <a href="https://arxiv.org/abs/2404.06851">UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion</a> in this repository.
+We release the code of the paper <a href="https://arxiv.org/abs/2404.06851">UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion</a> in this repository.
 
 ## Abstract
 
